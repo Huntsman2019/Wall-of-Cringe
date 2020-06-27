@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Oxygen' serif;
+  font-size: 16 px;
+  background-color: #390e3e;
+  color: #fff;
+  scrollbar-width: thin;
+  scrollbar-color: #390e3e  #000;
+}
+body::-webkit-scrollbar-track {
+  background: none;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #7d95e7;
+  border-radius: 6px;
+  border: 0px;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background-color: #031b6d;
+}
+#header-nav{
+  background-color: #5e6eb1;
+  border:0px;
+  border-radius: 0px;
+  font-family: serif;
+}
+.panel-footer{
+  background-color: #373634;
+  color: #fff;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.navbar-header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float:  left;
+}
+.navbar-brand{
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: 0px;
+  padding-bottom: 10px;
+  line-height: .75;
+}
+#logo-img{
+  background: url('https://img.icons8.com/ios-filled/50/000000/cologne-cathedral.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  padding: 10px 0 10px 0;
+}
+.quote{
+  /* background-color:  #5f2257; */
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.quoted-by{
+  font-size: 12px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+@media (max-width: 313px){
+  #logo-img{
+    visibility: hidden;
+    position: absolute;
+  }
+  #head{
+    font-size: 1.3em;
+  }
+}
