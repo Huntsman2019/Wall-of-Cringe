@@ -84,3 +84,9 @@ body::-webkit-scrollbar-thumb:hover{
     font-size: 1.3em;
   }
 }
+.panel-footer a{
+  color: #666afc;
+}
+.panel-footer a:hover,.panel-footer a:visited,.panel-footer a:active{
+  text-decoration: none;
+}
